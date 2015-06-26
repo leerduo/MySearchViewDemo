@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="search_label"
+    android:hint="search_hint"
+    android:searchSettingsDescription="settings_description"
+    android:searchSuggestAuthority="me.chenfuduo.mysearchdemo.DictionaryProvider"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:searchSuggestIntentData="content://me.chenfuduo.mysearchdemo.DictionaryProvider/dictionary"
+    android:searchSuggestSelection=" ?"
+    android:searchSuggestThreshold="1"
+    android:includeInGlobalSearch="true"
+    >
+
+</searchable>
